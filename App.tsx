@@ -10,7 +10,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <ScrollView>
         <View style={styles.base}>
-          <Text style={{color: '#33c', fontSize: 42}}>Lager-Appen</Text>
+          <Text style={{color: '#1e7694', fontSize: 42}}>Lager-Appen</Text>
           <Image source={warehouse} style={{ width: 320, height: 240 }} />
           <Stock/>
           <StatusBar style="auto" />
