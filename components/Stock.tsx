@@ -14,7 +14,7 @@ function StockList({products, setProducts}) {
                 key={index}
                 style={{ ...Typography.normal }}
                 >
-                    {product.name } - {product.stock }
+                    {product.name }, Antal: {product.stock }
                 </Text>
                 });
   

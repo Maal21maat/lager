@@ -32,6 +32,7 @@ export default function PickList({ route, navigation, setProducts }) {
 
         return <Text
                 key={index}
+                style={{ ...Typography.normal }}
                 >
                     {item.name} - {item.amount} - {item.location}
             </Text>;

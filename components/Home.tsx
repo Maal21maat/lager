@@ -10,6 +10,7 @@ export default function Home({route, products, setProducts}) {
       <Text style={styles.header}>Lager-Appen</Text>
       <Image source={warehouse} style={{ width: 300, height: 220, marginBottom: 28 }} />
       <Stock products={products} setProducts={setProducts}/>
+      <Text style={styles.normal}></Text>
     </ScrollView>
   );
 }
@@ -17,4 +18,5 @@ export default function Home({route, products, setProducts}) {
 const styles = StyleSheet.create({
   base: Base.base,
   header:Typography.header1,
+  normal: Typography.normal,
 });

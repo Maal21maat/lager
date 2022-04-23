@@ -5,6 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
+import { Base } from './styles';
 
 import Home from "./components/Home.tsx";
 import Pick from "./components/Pick.tsx";
@@ -49,13 +50,6 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    paddingLeft: 12,
-    paddingRight: 12,
-    // alignItems: 'center',
-    // justifyContent: 'center',
-  },
+  container: Base.base,
 });
 

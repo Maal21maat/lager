@@ -18,7 +18,7 @@ export const header3 = {
 
 export const normal = {
     fontSize: 20,
-    marginBottom: 20,
+    marginBottom: 5,
 };
 
 export const small = {
@@ -30,4 +30,10 @@ export const warning = {
     fontSize: 20,
     marginBottom: 20,
     color: 'red',
+};
+
+export const intro = {
+    fontSize: 20,
+    marginBottom: 5,
+    color: '#1e7694',
 };
